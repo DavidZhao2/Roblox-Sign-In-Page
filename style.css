@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0F1115; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+    background-color: #23272A; /* Slightly lighter background for the box */
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4A4D52;
+    border-radius: 5px;
+    background-color: #0F1115;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 330px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    background-color: #4A4D52;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #5A5D62;
+}
+
+.secondary-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4A4D52;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondary-button:hover {
+    background-color: #5A5D62;
+}
+
+.Forgot-Password a,
+.New a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Forgot-Password a:hover,
+.New a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #4A4D52;
+    margin: 20px 0;
+}
